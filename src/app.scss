@@ -1,6 +1,6 @@
 html {
   scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
 * {
@@ -9,15 +9,14 @@ html {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-
-body{
+body {
   background-color: #111;
   color: #eee;
 }
 
 a {
   text-decoration: none;
-  color: #FFCD42;
+  color: #eee;
 }
 
 section {

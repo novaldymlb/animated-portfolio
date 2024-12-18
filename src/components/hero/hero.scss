@@ -1,0 +1,12 @@
+.hero {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  .imageContainer {
+    width: 40%;
+    // height: 100px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+  }
+}

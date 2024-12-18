@@ -1,3 +1,37 @@
-.navbar{
-  
+.navbar {
+  height: 110px;
+  color: #eee;
+  position: fixed;
+  width: 100%;
+
+  // // for testing
+  // :hover {
+  //   background-color: #eeeeee0f;
+  // }
+  .wrapper {
+    max-width: 93%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 22.25px;
+    .logo {
+      font-size: 30px;
+      font-weight: 900;
+    }
+    span {
+      color: #ffcd42;
+    }
+    .anchor {
+      display: flex;
+      gap: 50px;
+      font-weight: 200;
+
+      // // for testing
+      // :hover {
+      //   color: #ffcd42;
+      // }
+    }
+  }
 }
