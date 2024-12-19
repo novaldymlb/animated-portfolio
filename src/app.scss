@@ -1,6 +1,6 @@
 html {
   scroll-snap-type: y mandatory;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -17,6 +17,17 @@ body {
 a {
   text-decoration: none;
   color: #eee;
+  transition: color 300ms;
+}
+a.active {
+  color: #ffcd42;
+}
+.bg-pattern {
+  position: fixed;
+  scale: 1;
+  left: 0;
+  top: 0;
+  pointer-events: none;
 }
 
 section {

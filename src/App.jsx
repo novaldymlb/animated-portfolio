@@ -5,8 +5,14 @@ import Hero from './components/hero/Hero';
 const App = () => {
   return (
     <div>
+        <Navbar className='Navbar' />
+    <object
+      className='bg-pattern'
+      data='/0-1-pattern-bg-dark.svg'
+      type='image/svg+xml'
+      alt='pattern.svg'
+    ></object>
       <section id='About'>
-        <Navbar />
         <Hero />
       </section>
       <section>Timeline</section>

@@ -2,12 +2,8 @@
   height: 110px;
   color: #eee;
   position: fixed;
-  width: 100%;
-
-  // // for testing
-  // :hover {
-  //   background-color: #eeeeee0f;
-  // }
+  width: 100%;background-image: linear-gradient(to bottom, #111, #11111100);
+  z-index: 1;
   .wrapper {
     max-width: 93%;
     margin: auto;
@@ -26,12 +22,12 @@
     .anchor {
       display: flex;
       gap: 50px;
-      font-weight: 200;
+      font-weight: 300;
 
-      // // for testing
-      // :hover {
-      //   color: #ffcd42;
-      // }
+      // for testing
+      :hover {
+        color: #ffcd42;
+      }
     }
   }
 }

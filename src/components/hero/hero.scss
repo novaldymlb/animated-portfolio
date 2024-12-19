@@ -2,11 +2,69 @@
   height: 100%;
   overflow: hidden;
   position: relative;
-  .imageContainer {
-    width: 40%;
-    // height: 100px;
+  display: flex;
+  .charImg {
+    // z-index: 2;
+    cursor: none;
+    width: 700px;
     position: absolute;
-    top: 20%;
-    right: 5%;
+    top: 17%;
+    right: 3%;
+    .eyebrows {
+      position: absolute;
+    }
+    .eyes {
+      position: absolute;
+    }
   }
+  .text1 {
+    z-index: 1;
+    position: absolute;
+    margin: 23% 0% 0% 12.5%;
+    .text1a {
+      margin-bottom: 30px;
+      font-size: 50px;
+      span {
+        font-weight: 700;
+      }
+    }
+    .text1b {
+      font-size: 22.25px;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}
+.hand-wave {
+  position: absolute;
+  scale: 0.2;
+  margin-top: -240px;
+  margin-left: -170px;
+}
+button {
+  margin-top: 40px;
+  font-size: 22.25px;
+  padding: 20px;
+  color: #ffcd42;
+  background-color: #11111100;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  scale: 1;
+}
+button::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #eee;
+  transition: transform 500ms ease-in-out;
+  transform: scaleX(0.4);
+}
+button:hover::before,
+button:focus::before {
+  transform: scaleX(1);
 }
